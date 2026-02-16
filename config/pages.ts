@@ -18,7 +18,7 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Jatin Sharma portfolio website.",
     },
   },
   skills: {
@@ -57,10 +57,10 @@ export const pagesConfig: PagesConfig = {
   },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Jatin Sharma resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Jatin Sharma resume.",
     },
   },
   experience: {
