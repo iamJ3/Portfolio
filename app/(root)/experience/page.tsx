@@ -31,3 +31,12 @@ export const metadata: Metadata = {
 //     </PageContainer>
 //   );
 // }
+
+// Add a default export to satisfy Next.js requirements
+export default function ExperienceDisabledPage() {
+  return (
+    <div className="container flex items-center justify-center min-h-screen">
+      <h1 className="text-2xl font-bold">Experience Section Disabled</h1>
+    </div>
+  );
+}
