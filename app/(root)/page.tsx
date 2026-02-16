@@ -37,8 +37,8 @@ export default function IndexPage() {
     "@type": "Person",
     name: siteConfig.authorName,
     url: siteConfig.url,
-    image: siteConfig.ogImage,
-    jobTitle: "Applied AI Engineer",
+    // image: siteConfig.ogImage,
+    jobTitle: "Full Stack Developer",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
@@ -97,12 +97,13 @@ export default function IndexPage() {
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Applied AI Engineer
+            Full Stack Developer
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Software engineer working at the intersection of AI, data, and
-              scalable software systems.
+              Full-Stack Engineer focused on AI-driven applications, data-intensive backends, and production-grade scalable architectures.
+
+
             </p>
           </div>
 
@@ -180,7 +181,7 @@ export default function IndexPage() {
           </Link>
         </AnimatedText>
       </AnimatedSection>
-      <AnimatedSection
+      {/* <AnimatedSection
         direction="up"
         className="container space-y-6 py-10 my-14"
         id="experience"
@@ -218,7 +219,7 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
-      </AnimatedSection>
+      </AnimatedSection> */}
       <AnimatedSection
         direction="up"
         className="container space-y-6 bg-muted py-10 my-14"
