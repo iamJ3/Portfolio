@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function ExperiencePage() {
-  return (
-    <PageContainer
-      title={pagesConfig.experience.title}
-      description={pagesConfig.experience.description}
-    >
-      <Timeline experiences={experiences} />
-    </PageContainer>
-  );
-}
+// export default function ExperiencePage() {
+//   return (
+//     <PageContainer
+//       title={pagesConfig.experience.title}
+//       description={pagesConfig.experience.description}
+//     >
+//       <Timeline experiences={experiences} />
+//     </PageContainer>
+//   );
+// }
