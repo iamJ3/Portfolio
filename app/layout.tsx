@@ -1,6 +1,7 @@
 import "./globals.css";
 
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter as FontSans } from "next/font/google";
 import localFont from "next/font/local";
 
@@ -128,6 +129,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Analytics />
           <Toaster />
           <ModalProvider />
+          <SpeedInsights />
         </ThemeProvider>
       </body>
       <GoogleAnalytics gaId={GA_ID} />
