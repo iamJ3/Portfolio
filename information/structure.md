@@ -25,7 +25,6 @@ This is the folder structure of the whole application
 │ ├── api
 │ │ └── contact
 │ │ └── route.ts
-│ ├── favicon.ico
 │ ├── globals.css
 │ ├── layout.tsx
 │ └── manifest.ts
@@ -167,7 +166,7 @@ This is the folder structure of the whole application
 │ │ ├── app_7.webp
 │ │ └── logo.png
 │ ├── logo.png
-│ ├── profile-img.jpg
+│ ├── jatin.png
 │ ├── next.svg
 │ └── vercel.svg
 ├── tailwind.config.js

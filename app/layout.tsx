@@ -71,9 +71,9 @@ export const metadata = {
     creator: `@${siteConfig.username}`,
   },
   icons: {
-    // icon: siteConfig.iconIco,
-    // shortcut: siteConfig.logoIcon,
-    // apple: siteConfig.logoIcon,
+    icon: "/jatin.png",
+    shortcut: "/jatin.png",
+    apple: "/jatin.png",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
   alternates: {
