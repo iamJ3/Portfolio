@@ -88,13 +88,13 @@ export const Projects: ProjectInterface[] = [
   ],
   startDate: new Date("2026-01-01"),
   endDate: new Date("2026-02-20"),
-  companyLogoImg: "",  // ← update path if you have a specific logo; otherwise keep or add one
+  companyLogoImg: "/projects/chitchat/image1.png",  // ← update path if you have a specific logo; otherwise keep or add one
   pagesInfoArr: [
     {
       title: "ChitChat",
       description:
         "A modern real-time chat app built with clean architecture, Socket.IO for live messaging, authentication, and responsive UI.",
-      imgArr: ["/projects/chitchat/img_1.png", "/projects/chitchat/img2.png"],  // ← add your actual screenshot paths here
+      imgArr: ["/projects/chitchat/image1.png", "/projects/chitchat/image2.png"],  // ← add your actual screenshot paths here
     },
   ],
   descriptionDetails: {

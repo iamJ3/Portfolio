@@ -110,8 +110,9 @@ export default function IndexPage() {
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
               <Link
-                href={"/resume"}
+                href={process.env.NEXT_PUBLIC_RESUME_LINK || "https://drive.google.com/file/d/1FnV0YxaDdJX_uiI3LL8P-0tAl2EDEyOE/view?usp=sharing"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={cn(buttonVariants({ size: "lg" }))}
                 aria-label="View resume"
               >
