@@ -74,7 +74,7 @@ export const Projects: ProjectInterface[] = [
   category: ["Web Dev", "MERN Stack", "Socket.io", "UI/UX"],
   shortDescription:
     "Modern real-time chat application with user authentication, messaging, and responsive design.",
-  websiteLink: "https://chit-chat-lemon-five.vercel.app",
+  websiteLink: "https://chit-chat-space.vercel.app",
   githubLink: "https://github.com/iamJ3/ChitChat",
   techStack: [
     "React",
